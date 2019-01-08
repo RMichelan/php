@@ -1,0 +1,37 @@
+body 
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+h2
+{
+	text-align: center;
+}
+
+h4
+{
+	text-align: left;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+
+.form-cadastro 
+{
+	margin: 100px 80px 100px 80px; 
+	padding: 100px 100px 100px 100px;
+    border: 1px solid;
+    border-color: #afafaf;
+    box-shadow: 5px 8px 8px #c1c1c1;
+}
+
+
+.form-login
+{
+	margin: 100px 250px 100px 250px; 
+	padding: 100px 100px 100px 100px;
+    border: 1px solid;
+    border-color: #afafaf;
+    box-shadow: 5px 8px 8px #c1c1c1;
+}
