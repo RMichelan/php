@@ -27,7 +27,7 @@ include_once "configuracao/conexao.php";
 
 			<h2>.: CADASTRAR PRODUTO :.</h2>
 
-			<form action="inserir_produto.php" method="POST">
+			<form action="insere.php" method="POST">
 
 				<div class="form-group">
 					<label>Produto:</label>

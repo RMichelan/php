@@ -28,14 +28,12 @@
         ));
 
         if ($stmt) {
-            echo $_SESSION['msg'] = 'Cadastro feito com sucesso!!!';
             header('Location: exibir_produto.php');
         }
     }
 
     catch (Exception $e)
     {
-        echo $_SESSION['msg'] = 'Erro ao efetuar o cadastro: ',  $e->getMessage(), "\n";
         header('Location: cadastrar_produto.php');
     }
 
